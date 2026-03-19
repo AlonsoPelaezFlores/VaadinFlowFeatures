@@ -4,8 +4,8 @@ services:
     container_name: postgres_db
     environment:
       POSTGRES_DB: vaadin_db
-      POSTGRES_USER: root
-      POSTGRES_PASSWORD: root
+      POSTGRES_USER: vaadin_user
+      POSTGRES_PASSWORD: vaadin_password
     ports:
       - "5432:5432"
     volumes:
