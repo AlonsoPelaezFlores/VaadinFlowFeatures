@@ -1,34 +1,43 @@
-# My Application README
+# Project Tasks
 
-- [ ] TODO Replace or update this README with instructions relevant to your application
+This document tracks the tasks decided in our last meeting. Each task has its own branch following the `feature/task-name` convention.
+ 
+---
 
-To start the application in development mode, import it into your IDE and run the `Application` class. 
-You can also start the application from the command line by running: 
+## Tasks
 
-```bash
-./mvnw
-```
+### 1. IBAN Validator and Global Validations
+**Branch:** `feature/validators`
 
-To build the application in production mode, run:
+Implement IBAN field validation and define reusable global validators across the application.
+ 
+---
 
-```bash
-./mvnw package
-```
+### 2. Import and Export XML Files
+**Branch:** `feature/xml-import-export`
 
-To build a Docker image, run:
+Management XML file for import and export.
+ 
+---
 
-```bash
-docker build -t my-application:latest .
-```
+### 3. Error Export to Excel and PDF
+**Branch:** `feature/error-export-excel-pdf`
 
-If you use commercial components, pass the license key as a build secret:
+Allow users to download error reports in both Excel and PDF formats.
+ 
+---
 
-```bash
-docker build --secret id=proKey,src=$HOME/.vaadin/proKey .
-```
+### 4. Signature Declaration PDF Generation
+**Branch:** `feature/signature-declaration-pdf`
 
-## Getting Started
+Generate a PDF document containing the signature declaration based on form data.
+ 
+---
 
-The [Quick Start](https://vaadin.com/docs/v25/getting-started/quick-start) tutorial helps you get started with Vaadin in 
-around 10 minutes. This tutorial walks you through building a simple application, introducing the core concepts along 
-the way.
+### 5. Alfresco Dockerized - Upload and Download Documents
+**Branch:** `feature/alfresco-dockerized`
+
+Set up Alfresco in Docker and implement document upload and download functionality.
+ 
+---
+ 
