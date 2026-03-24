@@ -1,0 +1,18 @@
+.detail-label {
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+}
+
+.detail-value {
+    font-size: 16px;
+    word-break: break-word;
+    min-width: 0;
+}
+
+.detail-item {
+    display: flex;
+    flex-direction: row ;
+    gap: 0.25rem;
+    min-width: 0;
+}
