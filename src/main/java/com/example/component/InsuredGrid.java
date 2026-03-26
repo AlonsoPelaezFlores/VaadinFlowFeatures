@@ -1,8 +1,11 @@
 package com.example.component;
 
 import com.example.backend.dto.InsuredDTO;
+import com.vaadin.flow.component.ModalityMode;
+import com.vaadin.flow.component.UI;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.button.ButtonVariant;
+import com.vaadin.flow.component.dialog.Dialog;
 import com.vaadin.flow.component.grid.Grid;
 import com.vaadin.flow.component.icon.VaadinIcon;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
@@ -24,6 +27,7 @@ public class InsuredGrid extends VerticalLayout {
         grid.addComponentColumn(insuredDTO ->{
             Button editBtn = new Button(VaadinIcon.PENCIL.create(), event ->{
                 DialogInsured dialog = new DialogInsured(insuredDTO);
+                dialog.setModality(ModalityMode.STRICT);
                 dialog.open();
             });
             editBtn.addThemeVariants(ButtonVariant.LUMO_ICON);

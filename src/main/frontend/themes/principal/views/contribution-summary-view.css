@@ -1,0 +1,9 @@
+
+.iban-form__field vaadin-text-field{
+    width: 70px;
+    gap: 0.5rem;
+}
+.iban-form__field vaadin-integer-field{
+    width: 70px;
+    gap: 0.5rem;
+}
