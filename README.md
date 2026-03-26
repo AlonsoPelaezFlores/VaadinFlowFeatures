@@ -6,7 +6,7 @@ This document tracks the tasks decided in our last meeting. Each task has its ow
 
 ## Tasks
 
-### 1. Mock Base
+### 1. Base Mock
 **Branch:** `feature/mock-principal`
 
 Implements page mocks to achieve functional navigation with action buttons, forms and tables with their respective structure. They include a basic design that will serve as a base for the implementation of each feature
